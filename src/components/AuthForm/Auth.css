@@ -59,7 +59,7 @@ input, button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(http://localhost:3000/static/media/lionbg.6d2e641….svg);
+  background-image: url(../../images/imgform/lionbg.svg);
   background-color: rgba(22, 2, 31, 0.918);
   width: 64%;
   padding: 100px 0;
