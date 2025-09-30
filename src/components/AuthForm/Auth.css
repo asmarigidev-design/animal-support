@@ -214,6 +214,14 @@ input, button {
   .container {
     width: 90%;
   }
+
+.container .monkey .monkey-content  {
+  width: 100%;
+  padding:0;
+
+
+}
+
   .register-page .register ul {
     width: 35%;
   }
