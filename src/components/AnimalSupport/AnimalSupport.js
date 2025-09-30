@@ -32,12 +32,15 @@ const AnimalSupport = () => {
             </header>
 
             <section className="wolf">
-                <div className="wolf-title">
+                <div className="wolf-title" data-aos="fade-right">
+
                     <h1>حیوانات نیاز به مراقبت دارند</h1> {/* عنوان بخش گرگ | Wolf section title */}
                     <p>با هم در انجمن‌های حمایت از حیوانات بستر مناسب برای آن‌ها را فراهم می‌کنیم</p>
                 </div>
                 <div className="wolf-content">
-                    <div className="container">
+                    <div className="container" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                         <p>انجمن حمایت از حیوانات با هدف حفظ حقوق و رفاه حیوانات فعالیت می‌کندم.</p>
                         <p>ما با فراهم کردن سرپناه، مراقبت‌های پزشکی، و فرهنگ‌سازی تلاش داریم زندگی بهتری برای حیوانات فراهم کنیم.</p>
                         <p>با حمایت شما، دنیایی مهربان‌تر برای حیوانات می‌سازیم.</p>
@@ -47,13 +50,13 @@ const AnimalSupport = () => {
 
             <section className="monkey">
                 <div className="monkey-title">
-                    <div className="container">
+                    <div className="container" data-aos="fade-left">
                         <h1>دوستی و مهربانی با حیوانات</h1> {/* عنوان بخش میمون | Monkey section title */}
                         <p>با عشق و مراقبت، دنیایی بهتر برای حیوانات بسازیم.</p>
                     </div>
                 </div>
                 <div className="monkey-content">
-                    <div className="container">
+                    <div className="container" data-aos="fade-up">
                         <p>حیوانات موجوداتی شگفت‌انگیز هستند که مهربانی و مراقبت ما را نیاز دارند.</p>
                         <p>با حمایت از انجمن‌های حمایت از حیوانات، می‌توانیم زندگی بهتری برای آن‌ها فراهم کنیم.</p>
                         <p>محبت و توجه به حیوانات، بازتابی از انسانیت ماست.</p>
@@ -67,12 +70,12 @@ const AnimalSupport = () => {
             <footer>
                 <div className="overlay">
                     <div className="container">
-                        <div className="footer-title">
+                        <div className="footer-title" data-aos="fade-bottom">
                             <h1>به ما بپیوندید</h1> {/* عنوان فوتر | Footer title */}
                             <p>با پیوستن به انجمن حمایت از حیوانات، قدمی در مسیر مهربانی و مراقبت بردارید...</p>
                         </div>
 
-                        <div className="social">
+                        <div className="social" data-aos="fade-up">
                             <ul>
                                 <li><a href="/"><i className="fab fa-instagram"></i></a></li> {/* آیکون اینستاگرام | Instagram icon */}
                                 <li><a href="/"><i className="fab fa-youtube"></i></a></li> {/* آیکون یوتیوب | YouTube icon */}
@@ -80,7 +83,7 @@ const AnimalSupport = () => {
                                 <li><a href="/"><i className="fab fa-facebook-f"></i></a></li> {/* آیکون فیسبوک | Facebook icon */}
                             </ul>
                         </div>
-                        <div className="description">
+                        <div className="description" data-aos="fade-right">
                             <p>انجمن حمایت از حیوانات با هدف حفاظت از حقوق حیوانات، ایجاد آگاهی عمومی...</p>
                         <p>انجمن حمایت از حیوانات با هدف حفاظت از حقوق حیوانات، ایجاد آگاهی عمومی، و ارائه سرپناه و مراقبت‌های لازم فعالیت می‌کند. ما تلاش داریم با فرهنگ‌سازی و ایجاد تغییرات مثبت، زندگی بهتری برای حیوانات فراهم کنیم. با حمایت شما، دنیایی مهربان‌تر و امن‌تر برای حیوانات خواهیم ساخت.</p>
                         </div>

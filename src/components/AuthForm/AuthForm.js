@@ -4,15 +4,15 @@ import './Auth.css'; // استایل فرم احراز هویت | Auth form styl
 
 const AuthForm = ({ isRegister, setIsRegister }) => {
   return (
-    <div id="register">
+    <div id="register" data-aos="flip-left">
       <div className="container">
         <div className="row">
           <div className="register-page">
-            <div className="register">
+            <div className="register" >
               <h1>{isRegister ? "ثبت نام کنید" : "وارد شوید"}</h1> {/* عنوان فرم | Form title */}
               {isRegister && (
                 <>
-                  <ul>
+                  <ul data-aos="fade-up"> 
                     <li>
                       <a href="/"><i className="fab fa-facebook-f"></i></a> {/* آیکون فیسبوک | Facebook icon */}
                     </li>
@@ -23,7 +23,7 @@ const AuthForm = ({ isRegister, setIsRegister }) => {
                       <a href="/"><i className="fab fa-linkedin-in"></i></a> {/* آیکون لینکدین | LinkedIn icon */}
                     </li>
                   </ul>
-                  <h5>یا میتوانید از روش زیر ثبت نام کنید.</h5> {/* توضیح روش جایگزین | Alternative signup method */}
+                  <h5>یا میتوانید از روش بالا ثبت نام کنید.</h5> {/* توضیح روش جایگزین | Alternative signup method */}
                 </>
               )}
               <form>
@@ -55,7 +55,7 @@ const AuthForm = ({ isRegister, setIsRegister }) => {
             </div>
             <div className="auth-login">
               <img src="images/logo.svg" alt="" /> {/* لوگو فرم | Form logo */}
-              <div className="login-content">
+              <div className="login-content" data-aos="fade-up">
                 <h1>خوش آمدید</h1> {/* پیام خوش‌آمدگویی | Welcome message */}
                 <p>اگر قبلا ثبت نام کرده اید میتوانید از این قسمت وارد شوید</p> {/* توضیح ورود | Login prompt */}
                 <a
