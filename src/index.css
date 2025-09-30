@@ -152,6 +152,9 @@ header nav ul li a:hover {
 /* سکشن فوتر | Footer section */
 footer {
   background-image: url('./images/lionbg.svg');
+  background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
   background-size: cover;
   height: 900px;
   position: relative;
